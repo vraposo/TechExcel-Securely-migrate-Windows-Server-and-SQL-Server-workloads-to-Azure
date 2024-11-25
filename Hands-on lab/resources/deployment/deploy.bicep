@@ -467,48 +467,6 @@ resource sqlmi_subnet_routetable 'Microsoft.Network/routeTables@2022-01-01'= {
                     nextHopType: 'Internet'
                 }
             }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-AzureCloud.northcentralus'
-                properties: {
-                    addressPrefix: 'AzureCloud.northcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-AzureCloud.southcentralus'
-                properties: {
-                    addressPrefix: 'AzureCloud.southcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-Storage.northcentralus'
-                properties: {
-                    addressPrefix: 'Storage.northcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-Storage.southcentralus'
-                properties: {
-                    addressPrefix: 'Storage.southcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-EventHub.northcentralus'
-                properties: {
-                    addressPrefix: 'EventHub.northcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
-            {
-                name: 'Microsoft.Sql-managedInstances_UseOnly_mi-EventHub.southcentralus'
-                properties: {
-                    addressPrefix: 'EventHub.southcentralus'
-                    nextHopType: 'Internet'
-                }
-            }
         ]
     }
 }
