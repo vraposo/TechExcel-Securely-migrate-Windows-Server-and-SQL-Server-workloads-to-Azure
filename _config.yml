@@ -6,7 +6,7 @@ theme: just-the-docs
 
 aux_links:
   "TechExcel: Securely migrate Windows Server and SQL Server workloads to Azure": 
-    - "https://github.com/microsoft/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure"
+    - "https://github.com/vraposo/TechExcel-Securely-migrate-Windows-Server-and-SQL-Server-workloads-to-Azure"
 callouts_level: quiet # or loud
 callouts:
   highlight:
